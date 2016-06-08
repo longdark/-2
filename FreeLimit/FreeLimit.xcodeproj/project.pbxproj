@@ -14,6 +14,7 @@
 		BCE62E4F1D07F23400392BE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE62E4E1D07F23400392BE2 /* Images.xcassets */; };
 		BCE62E521D07F23400392BE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE62E501D07F23400392BE2 /* LaunchScreen.xib */; };
 		BCE62E5E1D07F23400392BE2 /* FreeLimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE62E5D1D07F23400392BE2 /* FreeLimitTests.m */; };
+		BCE62E691D07F74B00392BE2 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE62E681D07F74B00392BE2 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BCE62E571D07F23400392BE2 /* FreeLimitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeLimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE62E5C1D07F23400392BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCE62E5D1D07F23400392BE2 /* FreeLimitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeLimitTests.m; sourceTree = "<group>"; };
+		BCE62E671D07F74B00392BE2 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		BCE62E681D07F74B00392BE2 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		BCE62E401D07F23400392BE2 /* FreeLimit */ = {
 			isa = PBXGroup;
 			children = (
+				BCE62E671D07F74B00392BE2 /* MyViewController.h */,
+				BCE62E681D07F74B00392BE2 /* MyViewController.m */,
 				BCE62E451D07F23400392BE2 /* AppDelegate.h */,
 				BCE62E461D07F23400392BE2 /* AppDelegate.m */,
 				BCE62E481D07F23400392BE2 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				BCE62E4A1D07F23400392BE2 /* ViewController.m in Sources */,
 				BCE62E471D07F23400392BE2 /* AppDelegate.m in Sources */,
+				BCE62E691D07F74B00392BE2 /* MyViewController.m in Sources */,
 				BCE62E441D07F23400392BE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				BCE62E631D07F23400392BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE62E641D07F23400392BE2 /* Build configuration list for PBXNativeTarget "FreeLimitTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				BCE62E661D07F23400392BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
